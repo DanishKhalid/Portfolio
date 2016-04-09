@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        #Name {
+            font-size: 200%;
+            font-family:Andalus;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="Name" class="row" >
+    <div class="col-xs-12 col-md-12">PORT FOLIO</div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="home.html">Home</a></li>
+        <li role="presentation"><a href="about-us.html">About Us</a></li>
+        <li role="presentation"><a href="gallery.html">Gallery</a></li>
+        <li role="presentation"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<h3>Question:</h3>
+<p>: Write a program to create student bio data, following fields use in Student Object <br>
+    (First Name, Last Name, Age, ID, Contact #, Father Name, Residential Address)
+</p>
+<h3>Code:</h3>
+<p>  var studentData =
+    {
+    firstName :"Danish", <br>
+    lastName  :"Khalid",<br>
+    age       :19, <br>
+    address   :"Block 5, flat13 new zeenat square Karachi", <br>
+    study     :"IQRA UNI", <br>
+    contact   :"123456789" <br>
+    }; <br>
+    document.write(studentData.firstName); <br>
+
+    document.write(studentData.lastName); <br>
+
+    document.write(studentData.age); <br>
+
+    document.write(studentData.address); <br>
+
+    document.write(studentData.study); <br>
+
+    document.write(studentData.contact); <br>
+</p>
+<h3>Answer:</h3>
+<script>
+    /*Task3*/
+
+    var studentData =
+    {
+        firstName :"Danish",
+        lastName  :"Khalid",
+        age       :19,
+        address   :"Block 5, flat13 new zeenat square Karachi",
+        study     :"IQRA UNI",
+        contact   :"123456789"
+    };
+    document.write(studentData.firstName +"<br>");
+    document.write(studentData.lastName +"<br>");
+    document.write(studentData.age +"<br>");
+    document.write(studentData.address +"<br>");
+    document.write(studentData.study +"<br>");
+    document.write(studentData.contact);
+
+</script>
+
+</body>
+</html>

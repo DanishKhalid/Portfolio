@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        #Name {
+            font-size: 200%;
+            font-family:Andalus;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="Name" class="row" >
+    <div class="col-xs-12 col-md-12">PORT FOLIO</div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="home.html">Home</a></li>
+        <li role="presentation"><a href="about-us.html">About Us</a></li>
+        <li role="presentation"><a href="gallery.html">Gallery</a></li>
+        <li role="presentation"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<h3>Question:</h3>
+<p>
+    Write a program to create two student Mark sheet, and check the conditions as given in question<br>
+    Student_One <br>
+    { <br>
+    Student_Name : “Zia Khan”, <br>
+    Student_ID : =J30052425300, <br>
+    Subject_HTML : 80, <br>
+    Student_CSS : 90, <br>
+    Student_JAVASCRIPT : 90, <br>
+    Student_BOOTSTRAP :  70, <br>
+    Total_Marks : 400 <br>
+    } <br>
+    Student_Two <br>
+    { <br>
+    Student_Name : “Zia Khan”, <br>
+    Student_ID : =J30052425300, <br>
+    Subject_HTML : 60, <br>
+    Student_CSS : 70, <br>
+    Student_JAVASCRIPT : 65, <br>
+    Student_BOOTSTRAP :  85, <br>
+    Total_Marks : 400 <br>
+    } <br>
+    Show the percentage for both and check the condition, if Student_One’s percentage > Student_Two then  <br>
+    eligible for scholarship
+</p>
+<h3>Code:</h3>
+<p>
+    var student1 = {}; <br>
+    student1.Name           = "Danish"; <br>
+    student1.ID             =  7701; <br>
+    student1.HTML           =  80; <br>
+    student1.CSS            =  90; <br>
+    student1.JAVASCRIPT     =  90; <br>
+    student1.BOOTSTRAP      =  70; <br>
+    student1.Total_Marks    =  400; <br>
+    var result1 =("The percentage of student 1 is "+ (student1.HTML + student1.CSS + student1.JAVASCRIPT + student1.BOOTSTRAP) /student1.Total_Marks * 100 +  " %"); <br>
+    document.write(result1); <br>
+
+    var Student2 = {}; <br>
+    Student2.Name           = "Khan"; <br>
+    Student2.ID             = 7702; <br>
+    Student2.HTML           = 60; <br>
+    Student2.CSS            = 70; <br>
+    Student2.JAVASCRIPT     = 65; <br>
+    Student2.BOOTSTRAP      =  85; <br>
+    Student2.Total_Marks    = 400; <br>
+    var result2 =("The percentage of student 2 is "+ (Student2.HTML + Student2.CSS + Student2.JAVASCRIPT + Student2.BOOTSTRAP) /Student2.Total_Marks * 100 +  " %"); <br>
+    document.write(result2); <br>
+    if(result1 > result2) <br>
+    { <br>
+    document.write("Not eligible for scholarship"); <br>
+    }  <br>
+</p>
+<h3>Answer:</h3>
+<script>
+    /*Task6*/
+    var student1 = {};
+    student1.Name           = "Danish";
+    student1.ID             =  7701;
+    student1.HTML           =  80;
+    student1.CSS            =  90;
+    student1.JAVASCRIPT     =  90;
+    student1.BOOTSTRAP      =  70;
+    student1.Total_Marks    =  400;
+
+    var result1 =("The percentage of student 1 is "+ (student1.HTML + student1.CSS + student1.JAVASCRIPT + student1.BOOTSTRAP) /student1.Total_Marks * 100 +  " %");
+    document.write(result1);
+
+    var Student2 = {};
+    Student2.Name           = "Khan";
+    Student2.ID             = 7702;
+    Student2.HTML           = 60;
+    Student2.CSS            = 70;
+    Student2.JAVASCRIPT     = 65;
+    Student2.BOOTSTRAP      =  85;
+    Student2.Total_Marks    = 400;
+
+    var result2 =("The percentage of student 2 is "+ (Student2.HTML + Student2.CSS + Student2.JAVASCRIPT + Student2.BOOTSTRAP) /Student2.Total_Marks * 100 +  " %");
+    document.write(result2);
+
+    if(result1 > result2)
+    {
+        document.write("Not eligible for scholarship");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h3>Question:</h3>
+<p>
+    Given the following script <br>
+    function checkCar() { <br>
+    var text; <br>
+    var favCar = prompt("What is your favorite <br>
+    car?"); <br>
+    switch(favCar) { <br>
+    //Add code here <br>
+    } <br>
+    document.write( text); <br>
+    } <br>
+    checkCar(); <br>
+    Finish the switch statement. Add the following <br>
+    cases: BMW, Ford and Peugeot. <br>
+    Set the value of the variable text to: "German car" for BMW. <br>
+    "American car" for Ford. "French car" for Peugeot. <br>
+    Also add a default case where the text value is "Unknown car <br>
+    name". <br>
+</p>
+
+<h3>Code:</h3>
+<p>
+    function checker() <br>
+    { <br>
+    var favouriteCars =prompt("What is your Favourite Car"); <br>
+    switch(favouriteCars) <br>
+    { <br>
+    case "BMW": <br>
+    alert(favouriteCars + " is a German car"); <br>
+    break; <br>
+    case "Ford": <br>
+    alert(favouriteCars + " is a American car"); <br>
+    break; <br>
+    case "Peugeot": <br>
+    alert (favouriteCars + " is a French car"); <br>
+    break; <br>
+    default : <br>
+    alert ("Unknown car name"); <br>
+    } <br>
+    } <br>
+
+    checker(); <br>
+</p>
+<h3>Answer:</h3>
+
+
+<script>
+    /*Task6*/
+            function checker()
+            {
+                var favouriteCars =prompt("What is your Favourite Car");
+                switch(favouriteCars)
+                {
+                    case "BMW":
+                        alert(favouriteCars + " is a German car");
+                        break;
+                    case "Ford":
+                        alert(favouriteCars + " is a American car");
+                        break;
+                    case "Peugeot":
+                        alert (favouriteCars + " is a French car");
+                        break;
+                    default :
+                        alert ("Unknown car name");
+                }
+            }
+
+            checker();
+</script>
+</body>
+</html>

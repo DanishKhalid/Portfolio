@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        #Name {
+            font-size: 200%;
+            font-family:Andalus;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<div id="Name" class="row" >
+    <div class="col-xs-12 col-md-12">PORT FOLIO</div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="home.html">Home</a></li>
+        <li role="presentation"><a href="about-us.html">About Us</a></li>
+        <li role="presentation"><a href="gallery.html">Gallery</a></li>
+        <li role="presentation"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<h3>Question:</h3>
+<p>
+    Write a program to create student object and insert data through prompt, then show values in alert box <br>
+    Use following properties in object <br>
+
+    Name<br>
+    Age<br>
+    Address<br>
+    And after show the data in alert box?<br>
+</p>
+<h3>Code</h3>
+<p>
+    var student = {}; <br>
+    student.Name    = prompt("Enter your Name here");<br>
+    student.Address = prompt("Enter your Address");<br>
+    student.Age     = prompt("Enter your Age");<br>
+    document.write("The student Name is : "+student.Name + "<br> " +"The student address is : " + student.Address  + "<br> " + "The student age is : " + student.Age );<br>
+
+</p>
+<h3>Answer</h3>
+<script>
+    /*Task7*/
+
+    var student = {};
+    student.Name    = prompt("Enter your Name here");
+    student.Address = prompt("Enter your Address");
+    student.Age     = prompt("Enter your Age");
+    document.write("The student Name is : "+student.Name + "<br> " +"The student address is : " + student.Address  + "<br> " + "The student age is : " + student.Age );
+
+</script>
+</body>
+</html>

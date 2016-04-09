@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h3>Question:</h3>
+<p>
+    Fix the following switch statement: <br>
+    function checkFruit() { <br>
+    var text; <br>
+    var fruits = prompt("Enter a fruit name"); <br>
+    switch(fruits) { <br>
+    case "Banana" <br>
+    text = "Banana is good!"; <br>
+    case "Orange" <br>
+    text = "I am not a fan of orange."; <br>
+    case "Apple" <br>
+    text = "How you like them apples?"; <br>
+    default <br>
+    text = "I have never heard of that <br>
+    fruit."; <br>
+    } <br>
+    document.write( text); <br>
+    } <br>
+    checkFruit(); <br>
+</p>
+
+<h3>Code:</h3>
+<p>
+    function checkFruit() <br>
+    { <br>
+    var fruits = prompt("Enter a fruit name"); <br>
+    switch(fruits) <br>
+    { <br>
+    case "Banana" : <br>
+    alert ("Banana is good!"); <br>
+    break; <br>
+    case "Orange" : <br>
+    alert ("I am not a fan of orange."); <br>
+    break; <br>
+    case "Apple" : <br>
+    alert ("How you like them apples?"); <br>
+    break; <br>
+    default : <br>
+    alert ("I have never heard of that fruit"); <br>
+    } <br>
+    } <br>
+
+    checkFruit(); <br>
+</p>
+<h3>Answer:</h3>
+
+
+<script>
+    /*Task7*/
+            function checkFruit()
+            {
+                var fruits = prompt("Enter a fruit name");
+                switch(fruits)
+                {
+                    case "Banana" :
+                        alert ("Banana is good!");
+                        break;
+                    case "Orange" :
+                        alert ("I am not a fan of orange.");
+                        break;
+                    case "Apple" :
+                        alert ("How you like them apples?");
+                        break;
+                    default :
+                        alert ("I have never heard of that fruit");
+                }
+            }
+
+            checkFruit();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        #Name {
+            font-size: 200%;
+            font-family:Andalus;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="Name" class="row" >
+    <div class="col-xs-12 col-md-12">PORT FOLIO</div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="home.html">Home</a></li>
+        <li role="presentation"><a href="about-us.html">About Us</a></li>
+        <li role="presentation"><a href="gallery.html">Gallery</a></li>
+        <li role="presentation"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+
+<h3>Question:</h3>
+<p>
+    Write a program to take user input and create student mark sheet? <br>
+
+    Student_Name : user input, <br>
+    Student_ID : user input, <br>
+    Subject_HTML : user input, <br>
+    Student_CSS : user input, <br>
+    Student_JAVASCRIPT : user input, <br>
+    Student_BOOTSTRAP :  user input, <br>
+    Total_Marks : user input <br>
+</p>
+<h3>Code:</h3>
+<p>
+    var student1 = {}; <br>
+    student1.Name           = prompt("Enter your Name"); <br>
+    student1.ID             = prompt("Enter your ID"); <br>
+    student1.HTML           = prompt("Enter your HTML number"); <br>
+    student1.CSS            = prompt("Enter your CSS number"); <br>
+    student1.JAVASCRIPT     = prompt("Enter your JAVASCRIPT number"); <br>
+    student1.BOOTSTRAP      = prompt("Enter your BOOTSTRAP number"); <br>
+    student1.Total_Marks    =  400; <br>
+
+    var result =("The percentage of "+ student1.Name  +"is "+ (student1.HTML + student1.CSS + student1.JAVASCRIPT + student1.BOOTSTRAP) /student1.Total_Marks * 100 +  " %");  <br>
+    document.write(result); <br>
+</p>
+<h3>Answer:</h3>
+<script>
+    /*Task8*/
+    var student1 = {};
+    student1.Name           = prompt("Enter your Name");
+    student1.ID             = prompt("Enter your ID");
+    student1.HTML           = prompt("Enter your HTML number");
+    student1.CSS            = prompt("Enter your CSS number");
+    student1.JAVASCRIPT     = prompt("Enter your JAVASCRIPT number");
+    student1.BOOTSTRAP      = prompt("Enter your BOOTSTRAP number");
+    student1.Total_Marks    =  400;
+
+    var result =("The percentage of "+ student1.Name  +"is "+ (student1.HTML + student1.CSS + student1.JAVASCRIPT + student1.BOOTSTRAP) /student1.Total_Marks * 100 +  " %");
+    document.write(result);
+
+</script>
+</body>
+</html>
